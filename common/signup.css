@@ -1,0 +1,118 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+#container{
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    margin: auto;
+    background-color: #E0E0E0;
+    height: 145%;
+    width: 1023px;
+    background: -moz-linear-gradient(20% 110% 90deg,#666666, #e0e0e0 );
+}
+#signup_form{
+    position:absolute;
+    top: 10%;
+    right: 40%;
+    height: 45%;
+    width: 40%;
+    z-index: 2;
+}
+#book_signup{
+    position:absolute;
+    top: 12%;
+    right: 37%;
+    height: 65%;
+    width: 40%;
+    z-index: 1;
+}
+
+
+
+#username, #password, #password_confirm, #first_name, #last_name, #email, #city, #state, #phone_number {
+    width: 248px;
+}
+#book_title, #book_author_last, #book_author_first, #isbn_num, #class_used_for, #price, #condition {
+    width: 248px;
+}
+#labels{
+    display: inline;
+}
+
+fieldset {
+    margin-top: 0px;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    background-color: #fff;
+    height: 650px;
+}
+
+legend {
+    background-color: #fff;
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+    font-size: 1.2em;
+    padding: 0px 7px;
+}
+#text {
+    width: 248px;
+    height: 70px;
+}
+
+#waiting {
+    position: relative;
+    top: 50%;
+    color: #767676;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    width: 50px;
+    
+}   
+#index_link{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 2%;
+    left: 70%;
+    border-style:solid;
+}
+#bottom_note{
+    font-size: 11px;
+}
+#back_button, #back_button_second_page{
+    float: right;
+}
+
+
+.success {
+    position: absolute;
+    top: 3.5%;
+    left: 27.5%;
+    width: 298px;
+    background: #a5e283;
+    border: #337f09 1px solid;
+    padding: 5px;
+
+}
+
+.error {
+    position: absolute;
+    top: 3.5%;
+    left: 24.5%;
+    width: 315px;
+    background: #ea7e7e;
+    border: #a71010 1px solid;
+    padding: 5px;
+}
+#opening_list li{
+    list-style: circle;
+}
+
+.fancy_box{
+    display: none;
+}

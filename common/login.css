@@ -1,0 +1,144 @@
+html, body{
+	width:100%;
+	height:100%;
+	margin:0px 0px 0px 0px;
+	z-index:0;
+}
+.stretch
+{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+#container{
+    margin:0px 0px 0px 0px;
+    position:relative;
+    margin:auto;
+    /*background-color:#E0E0E0;*/
+    height:100%;
+    width:1023px;
+    /*background: -moz-linear-gradient(20% 110% 90deg,#666666 , #e0e0e0 );*/"
+}
+#login_form{
+    position:absolute;
+    top: 30%;
+    height: 45%;
+    width: 40%;
+    left: 30%;
+	opacity:0.8;
+}
+
+#facebook_logo
+{
+	position: relative;
+	left: 75%;
+	bottom: 100px;
+	
+}
+
+#formInput{
+    margin: 0px 0px 0px 0px;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    height: 70%;
+    width: 90%;
+    font-family: Arial;
+    font-weight: bold;
+    border-style: solid;
+}
+#formInput input{
+    float: right;
+}
+#formInput a{
+    float: left;
+}
+
+#username, #password, #password_confirm {
+    display: inline;
+    width: 248px;
+}
+fieldset {
+    margin-top: 0px;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+    background-color: #fff;
+}
+
+legend {
+    background-color: #fff;
+    border-top: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    border-left: 1px solid #c8c8c8;
+    font-size: 1.2em;
+    padding: 0px 7px;
+}
+#text {
+    width: 248px;
+    height: 70px;
+}
+#submitButton{
+    font-family: Arial;
+    font-weight: bold;
+    width: 30%;
+}
+#password{
+    margin-left: 2px;
+    margin-top: 5px;
+}
+#signupButton{
+    position: relative;
+    top: 5px;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    bottom: 5px;
+}
+#contactUsButton{
+    position: relative;
+    top: 5px;
+    left: 10px;
+    font-size: 13px;
+    text-decoration: none;
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+}
+
+#waiting {
+    position: relative;
+    top: 50%;
+    color: #767676;
+    text-align: center;
+}
+
+.error {
+    margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 34%;
+    width: 315px;
+    background: #ea7e7e;
+    border: #a71010 1px solid;
+    padding: 5px;
+}
+
+#remember_title{
+    position: relative;
+    top: 5px;
+    left: 40px;
+    font-family: Times;
+    font-size: 14px;
+    
+}
+
+#remember{
+    position: relative;
+    top: 7px;
+    left: 45px;
+}

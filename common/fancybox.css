@@ -1,0 +1,5 @@
+#fancy_box-title { text-align: left; }
+
+#fancy_box-title b { display: block; margin-right: 80px; }
+
+#fancy_box-title span { float: right; }

@@ -1,0 +1,244 @@
+html,body{
+    height: 100%;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.stretch
+{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container{
+    position:relative;
+    margin: auto;
+    margin-top: 10px;
+    height: 1000px;
+    width:1023px;
+}
+#titleimage{
+    position: relative;
+    bottom: 60px;
+    right: 50px;
+    height: 500px;
+    width: 700px;
+    z-index: 1;
+    background-image: url(../images/508sticker.gif)
+}
+#title{
+    position: relative;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+	opacity:0.8;
+}
+#overbanner{
+    position: relative;
+    left: 615px;
+    bottom: 492px;
+    height:200px;
+    width: 400px;
+    background-color: #cccccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+/*=====================================BEGINNING OF THE NAVBAR===============================================*/
+#searchbar{
+    margin: 0px 20px 0px 0px;   
+    position:absolute;
+    top:215px;
+    left:615px;
+    height: 30px;
+    width: 400px;
+    z-index: 1;        
+    background-color: #cccccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#searchbarhome/*MY WORK MY WORK MY WORK MY WORK*/
+    {
+        position: relative;
+        top: 3px;
+        left: 40px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        display:inline;
+        font-family: sans-serif;
+        font-size: 16pt;
+        color: #ffffff;
+        
+    }
+#searchbarhome a:link, #searchbarhome a:visited
+    {
+        color:#ffffff;
+	text-decoration:none;
+    }
+#searchbarhome a:hover
+    {
+        color:#000000;
+        
+    }
+/* END END END END END END*/
+#searchbarabout/*ABOUT ME AABOUT ME ABOUT ME ABOUT ME*/
+    {
+        position: relative;
+        top: 3px;
+        left: 95px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        display:inline;
+        font-family: sans-serif;
+        font-size: 16pt;
+        color: #ffffff;
+
+  }
+#searchbarabout a:link, #searchbarabout a:visited
+    {
+        color:#ffffff;
+	text-decoration:none;
+    }
+#searchbarabout a:hover
+    {
+        color:#000000;
+        
+    }
+/* END END END END END END*/
+#searchbarcompany/*COMPANY INFO COMPANY INFO*/
+    {
+        position: relative;
+        top: 3px;
+        left: 145px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        display:inline;
+        font-family: sans-serif;
+        font-size: 16pt;
+        color: #ffffff;
+        
+    }
+#searchbarcompany a:link, #searchbarcompany a:visited
+    {
+        color:#ffffff;
+	text-decoration:none;
+    }
+#searchbarcompany a:hover
+    {
+        color:#000000;
+        
+    }
+/* END END END END END END*/
+/*=====================================END OF THE NAVBAR===============================================*/
+#adbar{
+    margin: 0px 0px 0px 0px;
+    position:relative;
+    height: 700px;
+    width:320px;
+    float: right;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+#contentcontainer{
+    position: relative;
+    height: 700px;
+    width: 692px;
+    float: left;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+#searchresults{
+    margin-left: 10px;
+}
+#results{
+    font-family: Sans-serif;
+}
+
+/********************** THIS THE TABBED INFORMATION SECTION ***************************/
+
+UL.mytabs {
+	position: relative;
+	z-index: 2;
+}
+UL.mytabs, UL.mytabs LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+UL.mytabs LI { 
+    padding: 0 0px;
+    text-align: center;
+    text-decoration: underline;
+}
+UL.mytabs LI A {
+    margin: 3px 0px 0px 3px;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	float: left;
+	padding: 2px;
+	border: 1px solid #CCCCCC;
+	border-bottom: 1px solid #cccccc;
+	background: #F0F0F0;
+	text-decoration: none;
+	color: #333333;
+	height: 22px;
+	width: 100px;
+        -moz-border-radius: 10px;
+        -webkit-border-top-left-radius: 10px;    
+        -khtml-border-top-left-radius: 10px;
+        border-top-left-radius: 10px;
+        -webkit-border-top-right-radius: 10px;    
+        -khtml-border-top-right-radius: 10px;
+        border-top-right-radius: 10px;
+}
+UL.mytabs LI A:HOVER, UL.mytabs LI.current A {
+	background: #cccccc;	
+}
+UL.mytabs LI.current A {
+	font-weight: bold;
+	font-size: 16px;
+	border-bottom: 1px solid #cccccc;
+}
+.mytabs-container {
+        margin: 3px 3px 0px 3px;
+	position: relative;
+	z-index: 1;
+	clear: both;
+	border: 1px solid #E0E0E0;
+	padding: 10px;
+	top: -1px;
+        height: 644px;
+        background-color: #cccccc;
+        -moz-border-radius: 10px;
+        -webkit-border-top-right-radius: 10px;    
+        -khtml-border-top-right-radius: 10px;
+        border-top-right-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;    
+        -khtml-border-bottom-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;    
+        -khtml-border-bottom-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+.found {
+	font-weight: bold;
+}
